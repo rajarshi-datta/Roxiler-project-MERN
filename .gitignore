@@ -1,0 +1,30 @@
+# Node.js dependencies
+node_modules/
+
+package-lock.json
+
+#.env not added since its an assignment and mongo_uri is known
+
+dist/
+build/
+.vite/
+.vitepress/cache/
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Tailwind CSS cache (if applicable)
+.postcss-cache/
+
+
